@@ -88,9 +88,9 @@ circles.push(circle);
                 circle.x = canvas.width;
              }
             if (circle.y < 0){
-                circle.y = canvas.length;
+                circle.y = canvas.height;
             }
-            if (circle.y > canvas.length){
+            if (circle.y > canvas.height){
                 circle.y = 0
             }
 
